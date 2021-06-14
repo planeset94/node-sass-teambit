@@ -13,31 +13,6 @@ body {
   margin: 0 auto;
 }
 
-div.buttons {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-div.buttons span {
-  padding: 0 1rem;
-}
-div.buttons button {
-  display: flex;
-  align-items: center;
-  padding: 0.2rem 0.6rem;
-  background-color: #2C4792;
-  border: none;
-  border-radius: 5px;
-  color: white;
-}
-div.buttons button > div {
-  width: 18px;
-}
-div.buttons button p {
-  padding-left: 2px;
-  font-size: 0.8rem;
-}
-
 nav {
   padding-top: 1rem;
   display: flex;
@@ -78,6 +53,31 @@ nav div.line {
   position: absolute;
   bottom: -25%;
   left: 0;
+}
+
+div.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+div.buttons span {
+  padding: 0 1rem;
+}
+div.buttons button {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 0.6rem;
+  background-color: #2C4792;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+div.buttons button > div {
+  width: 18px;
+}
+div.buttons button p {
+  padding-left: 10px;
+  font-size: 0.8rem;
 }
 
 .header-bottom {
@@ -125,9 +125,9 @@ nav div.line {
 }
 
 h5 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   text-align: center;
-  padding: 3rem 0;
+  padding: 2rem 0;
   width: 50%;
   margin: auto;
   line-height: 2.5rem;
@@ -168,7 +168,7 @@ div.pic-container .card-bunny #bunny-photo {
   height: 250px;
 }
 
-.section::after {
+.s_one-top::after {
   width: 100%;
   height: 1px;
   display: inline-block;

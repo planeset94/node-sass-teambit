@@ -3,7 +3,7 @@
 $bt_color: #2C4792;
 $sand_color:#FFE7D2;
 $h2-dim:3.3rem;
-$h5-dim:1.3rem;
+$h5-dim:1.4rem;
 $p-medium: 1.2rem;
 $p-small:0.8rem;
 $link:1rem;
@@ -23,6 +23,9 @@ body{
     margin:0 auto;
 }
 
+
+
+@mixin sign-in {
 div.buttons{
    
     display: flex;
@@ -51,7 +54,7 @@ div.buttons{
             }
 
             p{
-                padding-left: 2px;
+                padding-left: 10px;
                 font-size:$p-small;
 
             }
@@ -61,14 +64,15 @@ div.buttons{
 
 
 }
+}
 
 @mixin sectionPhoto {
     
 
     h5{
-         font-size: 1.3rem;
+         font-size: $h5-dim;
         text-align: center;
-        padding: 3rem 0;
+        padding: 2rem 0;
         width: 50%;
         margin: auto;
         line-height: 2.5rem;
@@ -119,12 +123,6 @@ div.buttons{
     
     }
     
-    .section::after{
-        width: 100%;
-        height: 1px;
-        display: inline-block;
-        background-color: black;
-        content: "";
-    }
+    
     }
     

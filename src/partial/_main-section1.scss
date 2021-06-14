@@ -5,3 +5,12 @@
 }
 
 @include sectionPhoto;
+
+.s_one-top::after{
+    width: 100%;
+    height: 1px;
+    display: inline-block;
+    background-color: black;
+    content: "";
+}
+
