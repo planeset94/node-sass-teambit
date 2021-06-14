@@ -1,3 +1,6 @@
+// HEADER TOP PART 
+
+
 nav {
     
     padding-top: 1rem;
@@ -18,6 +21,7 @@ nav {
             list-style: none;
             display: inline-block;
             margin-left: 1rem;
+            font-size: $link;
         }
 
         button{

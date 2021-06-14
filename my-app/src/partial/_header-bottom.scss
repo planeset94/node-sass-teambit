@@ -1,0 +1,55 @@
+.header-bottom{
+    margin-top:4rem;
+    display: flex;
+
+
+    .right-h-b, .left-h-b{
+        width: 50%;
+
+
+    }
+
+    .right-h-b{
+        img{
+            width:100%;
+        }
+    }
+
+h2{
+    font-size: $h2-dim;
+    line-height: 3rem;
+    padding-bottom: 1rem;
+}
+p{
+    font-size: $p-medium;
+    
+}
+div.buttons{
+    padding-top: 4em;
+}
+
+.buttons a{
+flex-basis: 100%;
+padding-top: 1rem;
+text-decoration: none;
+font-size:$link;
+
+
+
+i{
+    font-size:$p-small;
+}
+}
+
+
+
+
+
+
+
+
+       
+           
+
+
+}

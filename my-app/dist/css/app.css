@@ -9,6 +9,31 @@
   margin: 0 auto;
 }
 
+div.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+div.buttons span {
+  padding: 0 1rem;
+}
+div.buttons button {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 0.6rem;
+  background-color: #2C4792;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+div.buttons button > div {
+  width: 18px;
+}
+div.buttons button p {
+  padding-left: 2px;
+  font-size: 0.8rem;
+}
+
 nav {
   padding-top: 1rem;
   display: flex;
@@ -26,6 +51,7 @@ nav ul > li {
   list-style: none;
   display: inline-block;
   margin-left: 1rem;
+  font-size: 1rem;
 }
 nav button {
   display: flex;
@@ -48,4 +74,35 @@ nav div.line {
   position: absolute;
   bottom: -25%;
   left: 0;
+}
+
+.header-bottom {
+  margin-top: 4rem;
+  display: flex;
+}
+.header-bottom .right-h-b, .header-bottom .left-h-b {
+  width: 50%;
+}
+.header-bottom .right-h-b img {
+  width: 100%;
+}
+.header-bottom h2 {
+  font-size: 2.3rem;
+  line-height: 3rem;
+  padding-bottom: 1rem;
+}
+.header-bottom p {
+  font-size: 1.2rem;
+}
+.header-bottom div.buttons {
+  padding-top: 4em;
+}
+.header-bottom .buttons a {
+  flex-basis: 100%;
+  padding-top: 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.header-bottom .buttons a i {
+  font-size: 0.8rem;
 }
