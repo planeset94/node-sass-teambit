@@ -106,3 +106,8 @@ nav div.line {
 .header-bottom .buttons a i {
   font-size: 0.8rem;
 }
+
+#s_one {
+  background-color: #FFE7D2;
+  height: 500px;
+}
