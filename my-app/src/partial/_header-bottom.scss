@@ -5,19 +5,25 @@
 
     .right-h-b, .left-h-b{
         width: 50%;
-
-
+       
     }
 
     .right-h-b{
+        .header_img_bottom{
+            width: 100%;
+            height: 250px;
+        }
+
         img{
+            object-fit: cover;
             width:100%;
+            height: 100%;
         }
     }
 
 h2{
     font-size: $h2-dim;
-    line-height: 3rem;
+    line-height: 4rem;
     padding-bottom: 1rem;
 }
 p{
@@ -25,7 +31,7 @@ p{
     
 }
 div.buttons{
-    padding-top: 4em;
+    padding: 3.5rem 0;
 }
 
 .buttons a{
@@ -33,6 +39,7 @@ flex-basis: 100%;
 padding-top: 1rem;
 text-decoration: none;
 font-size:$link;
+color: $main-color;
 
 
 

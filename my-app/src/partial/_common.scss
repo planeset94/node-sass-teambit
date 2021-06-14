@@ -2,17 +2,22 @@
 
 $bt_color: #2C4792;
 $sand_color:#FFE7D2;
-$h2-dim:2.3rem;
+$h2-dim:3.3rem;
+$h5-dim:1.2rem;
 $p-medium: 1.2rem;
 $p-small:0.8rem;
 $link:1rem;
+$main-color:#5D402C;
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+body{
+    color: $main-color;
 
+}
 .container{
     width: 80%;
     margin:0 auto;
@@ -40,7 +45,7 @@ div.buttons{
         padding:0.2rem 0.6rem;
         background-color:$bt_color;
         border:none;
-        border-radius: 10px;
+        border-radius: 5px;
         color: white;
 
         

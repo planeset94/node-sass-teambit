@@ -1,4 +1,46 @@
 #s_one{
     background-color: $sand_color;
-    height: 500px;
+    width: 100%;
+
 }
+h5{
+    font-size: $h5-dim;
+    text-align: center;
+    padding: 3rem 0;
+}
+div.pic-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+   
+
+
+        .card{
+        width: calc(100%/3 - 2rem/3);
+            
+        }
+        .card.bunny{
+            flex-basis: 100%;
+        }
+
+        .card:nth-child(2){
+            margin:0 1rem;
+        }
+        
+        div.photo, {
+            width: 100%;
+            height: 100px;
+        }
+
+        .photo>img{
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+
+
+
+}
+
