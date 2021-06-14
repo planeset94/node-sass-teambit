@@ -125,9 +125,12 @@ nav div.line {
 }
 
 h5 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-align: center;
   padding: 3rem 0;
+  width: 50%;
+  margin: auto;
+  line-height: 2.5rem;
 }
 
 div.pic-container {
@@ -138,9 +141,6 @@ div.pic-container {
 }
 div.pic-container .card {
   width: calc(100%/3 - 2rem/3);
-}
-div.pic-container .card.bunny {
-  flex-basis: 100%;
 }
 div.pic-container .card:nth-child(2) {
   margin: 0 1rem;
@@ -154,4 +154,20 @@ div.pic-container .photo > img {
      object-fit: contain;
   width: 100%;
   height: 100%;
+}
+div.pic-container .card-bunny {
+  width: 100%;
+  padding: 6rem 0;
+}
+div.pic-container .card-bunny #bunny-photo {
+  width: 100%;
+  height: 250px;
+}
+
+.s_one-top::after {
+  width: 100%;
+  height: 1px;
+  display: inline-block;
+  background-color: black;
+  content: "";
 }
