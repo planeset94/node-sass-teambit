@@ -22,7 +22,15 @@ nav {
             display: inline-block;
             margin-left: 1rem;
             font-size: $link;
+
+            & a{
+                text-decoration: none;
+                color: $main-color;
+            }
+
+
         }
+
 
         button{
             display: flex;
